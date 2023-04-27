@@ -1,0 +1,15 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+paytm.com	FALSE	/offer	FALSE	1677836094	referrer	
+paytm.com	FALSE	/	FALSE	1707743159	signalSDKVisitorId	9716ef60-2d36-11ed-8a6f-c58e95d61f03
+accounts.paytm.com	FALSE	/	FALSE	1707639073	signalSDKVisitorId	996461d0-2d36-11ed-98e0-ed9ef835972a
+.paytm.com	TRUE	/	TRUE	1693933865	_hjSessionUser_2137993	eyJpZCI6IjdkMDJjZGU5LTJlNmItNThhZi05ZGY4LWYyYjIzYmM2NzI0NiIsImNyZWF0ZWQiOjE2NjIzOTc4NjUzOTQsImV4aXN0aW5nIjpmYWxzZX0=
+.paytm.com	TRUE	/	FALSE	1709804094	_ga	GA1.2.61446861.1662397782
+.paytm.com	TRUE	/	FALSE	1696957939	_ga_LSKTYTR270	GS1.1.1662397868.1.1.1662397939.0.0.0
+.paytm.com	TRUE	/	FALSE	1683020105	_fbp	fb.1.1675244095441.120663331
+paytm.com	FALSE	/	TRUE	1678695126	connect.sid	s%3Aqa3swrjdTAUqoKD1MnApVnJC5yTnSwRC.jHFSrwefWJZyF5%2FJBQpLVn9SXRaSD9zppN69EIY54RE
+accounts.paytm.com	FALSE	/	TRUE	1707639125	PTSC	web-36ebd687-b6e8-5be7-885b-a68623c42177
+accounts.paytm.com	FALSE	/	TRUE	1707639125	PT-UWS	web-7cf201c5-3ea6-56a5-b232-695c9c17ae77
+paytm.com	FALSE	/	TRUE	0	XSRF-TOKEN	okTpmBKG-ltHUYfB0vyMUW5n44Ik1gXLvuwg

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.outer-box{
+  width:500px;
+  height:auto;
+  margin: auto;
+  border: none;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  border-radius: 20px;
+}
+.modal {
+  display: block; /* Hidden by default */
+  ; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  padding-bottom: 50px;
+  left: 0;
+  top: 0;
+  width: 500px; /* Full width */
+  height: 100% /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.bill-fetched-data{
+  width: 100%;
+  word-wrap: break-word;
+  margin-top:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<!-- Trigger/Open The Modal -->
+
+<!-- The Modal -->
+<div class="outer-box">
+
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-bill-fetched-data" id="modal-bill-fetched-data">
+      <table class="bill-fetched-table">
+        <tr>
+          <td class="title">Customer Name:</td>
+          <td class="value" id="modal-customerName">Customer Name</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td class="title">Bill Date:</td>
+          <td class="value" id="modal-billDate">2022-01-01</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="title">Due Date</td>
+          <td class="value" id="modal-dueDate">2022-01-01</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="title">Amount</td>
+          <td class="value" id="modal-amount">00.00</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2" class="title"><input type="submit" class="button" name="pay-bill" id="btn-pay-bill" value="Pay Now" onclick="myFunction();" /></td>
+
+        </tr>
+        <tr align="center">
+          <td colspan="2" class="title"><input type="submit" class="button" name="cancel" id="btn-cancel" value="Cancel" /></td>
+
+        </tr>
+
+      </table>
+
+
+  </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

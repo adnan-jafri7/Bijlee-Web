@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <style type="text/css" media="all">
+    .outer-box{
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+    }
+
+    .inner-box{
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+    }
+    .img-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .btn{
+
+      align-self: center;
+      margin: 10px;
+      background-color: red;
+      color: white;
+    }
+    .text{
+      text-align: center;
+      margin: 10px;
+      font-size: 20px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle"></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="outer-box">
+        <div class="inner-box">
+
+          <div class="img-container">
+             <img src="wrong.gif" width="100px" height="100px"</img>
+
+          </div>
+          <span class="text">Wrong Username or Password!</span>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+        </div>
+
+      </div>
+      </div>
+      <div class="modal-footer">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
